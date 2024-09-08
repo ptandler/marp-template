@@ -1,0 +1,25 @@
+{
+  "name": "Marp template",
+  "version": "0.0.1",
+  "author": "Peter Tandler",
+  "description": "This setup can be used to start a presentation with Marp, the Markdown Presentation Ecosystem",
+  "main": "src/index.md",
+  "scripts": {
+    "dev": "marp --server src",
+    "preview": "marp --preview src/index.md",
+    "pdf": "marp --pdf --pdf-outlines --pdf-notes src/index.md",
+    "notes": "marp --notes src/index.md",
+    "format": "prettier --loglevel warn --write \"**/*.{js,css,md}\"",
+  },
+  "keywords": [
+    "marp",
+    "presentation",
+    "template",
+  ],
+  "license": "CC-BY-NC-SA-4.0",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.4.0",
+    "markdown-it-include": "^2.0.0",
+    "prettier": ">=2",
+  }
+}

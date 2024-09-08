@@ -1,0 +1,15 @@
+{
+    "markdown.marp.enableHtml": true,
+    "markdown.marp.markdownItPlugins": [
+      {
+        "plugin": "markdown-it",
+        "options": {
+          "typographer": true,
+          "quotes": "„“‚‘"
+        }
+      }
+    ],
+    "files.associations": {
+      "*.json5": "jsonc"
+    }
+  }
